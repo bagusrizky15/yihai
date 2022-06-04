@@ -15,3 +15,5 @@ $config = require __DIR__ . '/config/console.php';
 $application = new yihai\core\console\Application($config);
 $exitCode = $application->run();
 exit($exitCode);
+
+
