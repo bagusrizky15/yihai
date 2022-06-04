@@ -1,0 +1,89 @@
+/*
+ *  Yihai
+ *
+ *  Copyright (c) 2019, CodeUP.
+ *  @author  Upik Saleh <upik@codeup.id>
+ */
+
+hr {
+    margin-top: 5px !important;
+    margin-bottom: 5px !important;
+    border: 0 !important;
+    border-top: 1px solid #666666 !important;
+}
+/** REPORT TEMPLATE STYLE*/
+.main-report table{
+    width: 100%;
+    max-width: 100%;
+    border: 1px solid #2d2d2d;
+}
+.main-report table th{
+    text-align: center;
+}
+.main-report table td, .main-report table th{
+    padding: 5px;
+}
+.main-report-build{
+    background-color: #fff;
+    margin:0 auto;
+}
+.page-break-always {
+    page-break-before: always;
+}
+
+
+.main-report table.no-border{
+    border:0;
+}
+
+.main-report table.no-border td, .main-report table.no-border th{
+    border:0;
+}
+#tinymce table.no-border{
+    border:1px solid #e8e8e8 !important;
+}
+
+#tinymce table.no-border td, #tinymce table.no-border th{
+    border:1px solid #e8e8e8 !important;
+}
+.main-report p{
+    min-height: 14px;
+}
+html{
+    background: #e4e4e4;
+}
+body{
+    font-size: 11px;
+}
+.main-report{
+    font-size:8pt !important;
+}
+#tinymce *{
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: 11px;
+}
+#tinymce .field{
+    -webkit-user-select: all;
+    -moz-user-select: all;
+    -ms-user-select: all;
+    user-select: all;
+}
+#tinymce td, #tinymce th{
+    max-width: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+#tinymce td:hover, #tinymce th:hover{
+    overflow:visible;
+    white-space: normal;
+}
+
+#tinymce .field:hover,#tinymce th:hover, #tinymce td:hover{
+}
+#tinymce [condition] {
+    border:1px dashed;
+}
+#tinymce [report-list] {
+    border:1px dashed blue;
+}

@@ -1,0 +1,97 @@
+/*
+ *  Yihai
+ *
+ *  Copyright (c) 2019, CodeUP.
+ *  @author  Upik Saleh <upik@codeup.id>
+ */
+
+body {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background: #fbfbfb;
+}
+p{
+    margin: 0 0 !important;
+}
+.cat-pagination {
+    text-align: center
+}
+
+.cat-pagination-top {
+    padding: 5px;
+    width: 50px;
+    margin: 2px;
+    background: white;
+    border: 1px solid #989898;
+    border-radius: 5px;
+}
+
+.cat-pagination-item {
+    padding: 5px;
+    min-width: 50px;
+    margin: 2px;
+    background: white;
+    border: 1px solid #989898;
+    border-radius: 5px;
+}
+
+.cat-pagination-top:hover,.cat-pagination-item:hover {
+    background-color: #a2a29b;
+}
+
+.cat-pagination-item.answered {
+    background: #00a65a;
+    color:#fff;
+}
+.cat-pagination-item.answered-notsend {
+    background: #93a63d;
+    color:#fff;
+}
+
+.cat-pagination-item.active {
+    background-color: #337ab7;
+    color:#fff;
+    border: 1px solid #fff;
+}
+
+
+button:focus {
+    outline: 0;
+}
+
+.cat-question-answer-item:hover {
+    background: #fbfbfb;
+    cursor: pointer;
+}
+
+.cat-question-answer-item {
+    margin-top: 5px;
+    clear: both;
+    border:1px solid #e2e2e2;
+}
+
+.cat-question-answer-opsi {
+    float: left;
+    background: #f5f5f5;
+    padding: 10px;
+    margin-right: 10px;
+}
+.cat-question-answer-text {
+    padding: 10px;
+}
+
+.cat-question-answer-item.active{
+
+    background-color: #337ab7;
+    color:#fff;
+}
+.cat-question-answer-item.active > .cat-question-answer-opsi {
+     background-color: #346eac;
+     color:#fff;
+ }
+
+.soal-nav-info > div{
+    display: inline-block;
+}
