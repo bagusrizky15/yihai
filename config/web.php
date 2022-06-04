@@ -1,7 +1,7 @@
 <?php
 $config = [
     'id' => 'yihai',
-    'name' => 'AppName',
+    'name' => 'Gizipedia',
     'basePath' => dirname(__DIR__),
     'bootstrap' => ['log'],
     'controllerNamespace' => 'yihai\controllers',
