@@ -1,6 +1,0 @@
-#!/usr/bin/env php
-<?php
-/**
- * Use for phpstrom YiiStrom Plugin
- */
-require 'yihai';
