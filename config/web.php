@@ -11,6 +11,9 @@ $config = [
         '@npm' => '@vendor/npm-asset',
     ],
     'components' => [
+        'assetManager'=> [
+            'linkAssets' => false
+            ],
         'request' => [
             // !!! insert a secret key in the following (if it is empty) - this is required by cookie validation
             'cookieValidationKey' => 'eI4U9NkTvITkrmeoL7icO8q-pj0seoLu',
